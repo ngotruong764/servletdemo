@@ -14,6 +14,13 @@ public class StudentServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 	
+	/**
+	 * @overview
+	 * the form of url when the form data is sent to the server:
+	 * 	url?field1=value1&field2=value2
+	 * 
+	 */
+	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/html");
